@@ -2187,6 +2187,68 @@ ul.menu-adaptive li {
       padding: 30px;
       top: 1.5em;
     }
+
+.consult {
+  display: none;
+}
+
+  /* slide 2 */
+
+    #ellipse {
+    width: 90%;
+    margin: 0 auto;
+    }
+
+    .for_what {
+        font-size: 4em;
+        top: -4em;
+        line-height: 1em;
+        left: 0;
+        right: 0;
+    }
+
+    #ellipse ul {
+    top: 0;
+    left: 0;
+    right: 0;
+    }
+
+    #ellipse ul li {
+      display: inline-block;
+      font-size: 2.5em;
+      padding: 0.8em 1em;
+      border-radius: 10em;
+    }
+
+    #ellipse ul li.ali, #ellipse ul li:hover {
+      padding: 0.8em 1em;
+    }
+
+    #ellipse_insider {
+    top: 10em;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    background: none;
+    }
+    .veltitle {
+      font-size: 4em;
+      line-height: 1em;
+      margin-top: 2em;
+    }
+    #ellipse p {
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 1.4em;
+    }
+    .morecenter {
+    text-align: center;
+    font-size: 2.5em;
+    padding: 1em 2em;
+    border-radius: 10em;
+    width: auto;
+    }
+
 }
 
 
@@ -2220,6 +2282,8 @@ ul.menu-adaptive li {
         left: 33px;
         top: 120px;
     }
+
+
 }
 
 @media (max-width: 370px) {
