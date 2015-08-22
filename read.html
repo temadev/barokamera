@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <title>Почитать / OxyHealth</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <link href="templates/oxyhealth/css/style.css" rel="stylesheet">
+    <link href="templates/oxyhealth/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100&amp;subset=latin,cyrillic' rel='stylesheet'
+          type='text/css'>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src='templates/oxyhealth/js/jquery.bxslider.js'></script>
+    <script type="text/javascript" src='templates/oxyhealth/js/jquery.mask.min.js'></script>
+    <script type="text/javascript" src='templates/oxyhealth/js/jquery.mousewheel.js'></script>
+    <script type="text/javascript" src='templates/oxyhealth/js/jquery.transit.min.js'></script>
+    <script type="text/javascript"
+            src="http://api-maps.yandex.ru/2.0/?coordorder=longlat&load=package.full&lang=ru-RU"></script>
+    <link href="templates/oxyhealth/js/fb/jquery.fancybox.css" rel="stylesheet">
+    <script type="text/javascript" src='templates/oxyhealth/js/fb/jquery.fancybox.js'></script>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+
+    <script type="text/javascript" src='templates/oxyhealth/js/application.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.fancybox').fancybox({
+                helpers: {
+                    title: {
+                        type: 'inside'
+                    }
+                }
+            });
+        });
+
+    </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {/*
+                     */
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-57450728-1', 'auto');
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+
+    </script>
+    <script type="text/javascript">
+        var __cs = __cs || [];
+        __cs.push(["setAccount", "8g5xquuv85eYMI4l72MhBCcmLffiCSdG"]);
+        __cs.push(["setHost", "http://server.comagic.ru/comagic"]);
+    </script>
+    <script type="text/javascript" async src="http://app.comagic.ru/static/cs.min.js"></script>
+
+</head>
+
+<body>
+
+<div id='index' data-index='0'></div>
+
+<div id='appl2' class='application gradient'>
+    <span>Заявка на консультацию:</span>
+
+    <div class="input">
+        <span>Имя:</span><input type='text' id='nameinput2' value=''/>
+    </div>
+    <div class="input">
+        <span>Телефон:</span><input type='text' id='phoneinput2' value='+7 (___) ___ - __ - __'/>
+    </div>
+    <div class="button buy applbuy2" style='float:none'>ОТПРАВИТЬ</div>
+    <br/>
+
+    <p>Консультация вас ни к чему не обязывает, мы будем рады рассказать про наши барокамеры и ответить на любые
+        интересующие вопросы.</p>
+</div>
+
+<div class='header'>
+    <div class="wrapper">
+        <a href="index.html" id='logo'></a>
+        <ul class='menu'>
+            <li><a href="production.html" title="Купить">Купить</a></li>
+
+            <li><a href="video.html" title="Видео">Видео</a></li>
+
+            <li><a href="read.html" title="Статьи" class='menuactive'>Статьи</a></li>
+
+            <li><a href="kontakty.html" title="Контакты">Контакты</a></li>
+
+        </ul>
+        <div class='phones comagic_phone'>
+            8 - 800 - 2000 - 417<br/>8 (495) 210 - 4009
+        </div>
+        <div class="header-social">
+            <a href="http://vk.com/oxyhealth" class='fa fa-vk' target="_blank"></a>
+
+            <div class="l2_blue"></div>
+            <a href="http://instagram.com/baro.center" class='fa fa-instagram' target="_blank"></a>
+
+            <div class="l2_blue"></div>
+            <a href="http://#" class='fa fa-youtube' target="_blank"></a>
+
+            <div class="l2_blue"></div>
+            <a href="http://#" class='fa fa-facebook' target="_blank"></a>
+
+            <div class="clr"></div>
+        </div>
+        <div class="feedback fancybox" href='#appl2'>ЗАКАЗАТЬ ЗВОНОК</div>
+        <div class="clr"></div>
+    </div>
+    <!-- .wrapper -->
+</div>
+
+<div class='content2'>
+
+    <div class='wrapper'>
+        <div class="margin" data-height='500'>
+            <div class="rel_container2">
+                <div class="wrapper">
+                    <div class='navnews navminheight center'>
+                        <ul class="newsslider_">
+                            <li class='disc'>
+                                <div class="lisl double_lisl">
+                                    <a href="read/barokamera_dlya_fitnesa.html">
+                                        <div class="title">Барокамеры OxyHealth для оздоровительного центра</div>
+                                    </a>
+                                    <!--<p>Что дает барокамера OxyHealth:
+        С помощью барокамеры можно насытить ткани организма кислоро...</p>-->
+                                    <div class="clr"></div>
+                                </div>
+                            </li>
+                            <li class='disc'>
+                                <div class="lisl double_lisl">
+                                    <a href="uploads/files/insult_lechenie.pdf">
+                                        <div class="title">Лечение инсульта с помощью баротерапии</div>
+                                    </a>
+                                    <!--<p>111...</p>-->
+                                    <div class="clr"></div>
+                                </div>
+                            </li>
+                            <li class='disc'>
+                                <div class="lisl double_lisl">
+                                    <a href="uploads/files/lechenie_dcp.pdf">
+                                        <div class="title">Портативные барокамеры в лечении и профилактике детского
+                                            церебрального паралича
+                                        </div>
+                                    </a>
+                                    <!--<p>11...</p>-->
+                                    <div class="clr"></div>
+                                </div>
+                            </li>
+                            <li class='disc'>
+                                <div class="lisl double_lisl">
+                                    <a href="uploads/files/opisanie_metodiki.pdf">
+                                        <div class="title">Описание методики лечения в барокамерах OxyHealth</div>
+                                    </a>
+                                    <!--<p>111...</p>-->
+                                    <div class="clr"></div>
+                                </div>
+                            </li>
+                            <li class='disc'>
+                                <div class="lisl double_lisl">
+                                    <a href="read/method.html">
+                                        <div class="title">Методы лечения в барокамере</div>
+                                    </a>
+                                    <!--<p>В России распространены два метода лечения в барокамере это гипербарическая оксигенация и нормоксическая компрессия. Стоит отметить, что это абсолю...</p>-->
+                                    <div class="clr"></div>
+                                </div>
+                            </li>
+                            <li class='disc'>
+                                <div class="lisl double_lisl">
+                                    <a href="read/barokamera_lechenie.html">
+                                        <div class="title">Лечение различных заболеваний в барокамере OxyHealth</div>
+                                    </a>
+                                    <!--<p>В развитии любого заболевания определяющее значение имеет дефицит образования биологической энергии в виде АТФ (Аденозинтрифосфата), поэтому трудно...</p>-->
+                                    <div class="clr"></div>
+                                </div>
+                            </li>
+                            <li class='disc'>
+                                <div class="lisl double_lisl">
+                                    <a href="read/pokazaniya.html">
+                                        <div class="title">Показания и противопоказания для лечения барокамере</div>
+                                    </a>
+                                    <!--<p>
+        Острая и хроническая ишемия, и гипоксия:                      - инсульт                      - инфаркт          ...</p>-->
+                                    <div class="clr"></div>
+                                </div>
+                            </li>
+                            <li class='disc'>
+                                <div class="lisl double_lisl">
+                                    <a href="read/barokamera_dlya_sportsmenov.html">
+                                        <div class="title">Барокамеры OxyHealth в спортивной медицине</div>
+                                    </a>
+                                    <!--<p>Портативные барокамеры OxyHealth (США) &ndash; продукт спортивной науки, выводящий спортсмена на новый   уровень, а спортивного врача возводит в ра...</p>-->
+                                    <div class="clr"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id='footer'>
+        <div class="wrapper">
+            <div class="footer_social">
+                <a href="http://vk.com/oxyhealth" class='fa fa-vk' target="_blank"></a>
+
+                <div class="l2"></div>
+                <a href="http://instagram.com/baro.center" class='fa fa-instagram' target="_blank"></a>
+
+                <div class="l2"></div>
+                <a href="http://#" class='fa fa-youtube' target="_blank"></a>
+
+                <div class="l2"></div>
+                <a href="http://#" class='fa fa-facebook' target="_blank"></a>
+
+                <div class="clr"></div>
+            </div>
+            <div class='phones comagic_phone'>
+                8 - 800 - 2000 - 417<br/>8 (495) 210 - 4009
+            </div>
+            <div class="feedback fancybox" href='#appl2'>ЗАКАЗАТЬ ЗВОНОК</div>
+            <a class="footer_logo" href="index.html"></a>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript">
+    ymaps.ready(init);
+    var myMap,
+            myPlacemark;
+
+    function init() {
+        myMap = new ymaps.Map("map", {
+            center: [37.642186, 55.734937],
+            zoom: 14
+        });
+
+        myPlacemark = new ymaps.Placemark([37.642186, 55.734937], {}, {
+                    iconImageHref: '/templates/oxyhealth/images/map.png',
+                    iconImageSize: [89, 46],
+                    iconImageOffset: [-40, -63],
+                    draggable: false,
+                    zIndex: 650,
+                    zIndexActive: 900
+                }
+        );
+        myMap.geoObjects.add(myPlacemark);
+    }
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function () {
+            try {
+                w.yaCounter27413060 = new Ya.Metrika({
+                    id: 27413060,
+                    webvisor: true,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true
+                });
+            } catch (e) {
+            }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () {
+                    n.parentNode.insertBefore(s, n);
+                };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else {
+            f();
+        }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript>
+    <div><img src="http://mc.yandex.ru/watch/27413060" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+</body>
+</html>
