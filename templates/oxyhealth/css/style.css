@@ -2123,7 +2123,6 @@ ul.menu-adaptive li {
     z-index: 100;
 }
 
-
 .menu-adaptive__toggle {
     color: #304f92;
     font-size: 2em;
@@ -2136,11 +2135,11 @@ ul.menu-adaptive li {
     }
 
     ul.menu-adaptive li {
-      padding: 4em;
+        padding: 4em;
     }
 
     ul.menu-adaptive li a {
-      font-size: 4em;
+        font-size: 4em;
     }
 
     .menu-adaptive__wrapper {
@@ -2152,7 +2151,7 @@ ul.menu-adaptive li {
     }
 
     .menu-adaptive__toggle {
-      font-size: 4em;
+        font-size: 4em;
     }
 
     .menu-adaptive__show {
@@ -2160,7 +2159,7 @@ ul.menu-adaptive li {
     }
 
     .menu-adaptive__toggle span {
-      display: none;
+        display: none;
     }
 
     .wrapper {
@@ -2174,29 +2173,28 @@ ul.menu-adaptive li {
     }
 
     .header {
-      height: 12em;
+        height: 12em;
     }
 
     #logo {
-      top: 4em;
+        top: 4em;
     }
 
     .feedback {
-      right: 4em;
-      font-size: 2em;
-      padding: 30px;
-      top: 1.5em;
+        right: 4em;
+        font-size: 2em;
+        padding: 30px;
+        top: 1.5em;
     }
 
-.consult {
-  display: none;
-}
+    .consult {
+        display: none;
+    }
 
-  /* slide 2 */
-
+    /* slide 2 */
     #ellipse {
-    width: 90%;
-    margin: 0 auto;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .for_what {
@@ -2208,49 +2206,51 @@ ul.menu-adaptive li {
     }
 
     #ellipse ul {
-    top: 0;
-    left: 0;
-    right: 0;
+        top: 0;
+        left: 0;
+        right: 0;
     }
 
     #ellipse ul li {
-      display: inline-block;
-      font-size: 2.5em;
-      padding: 0.8em 1em;
-      border-radius: 10em;
+        display: inline-block;
+        font-size: 2.5em;
+        padding: 0.8em 1em;
+        border-radius: 10em;
     }
 
     #ellipse ul li.ali, #ellipse ul li:hover {
-      padding: 0.8em 1em;
+        padding: 0.8em 1em;
     }
 
     #ellipse_insider {
-    top: 10em;
-    padding: 0;
-    width: 100%;
-    margin: 0 auto;
-    background: none;
+        top: 10em;
+        padding: 0;
+        width: 100%;
+        margin: 0 auto;
+        background: none;
     }
+
     .veltitle {
-      font-size: 4em;
-      line-height: 1em;
-      margin-top: 2em;
+        font-size: 4em;
+        line-height: 1em;
+        margin-top: 2em;
     }
+
     #ellipse p {
-    text-align: center;
-    font-size: 2.5em;
-    line-height: 1.4em;
+        text-align: center;
+        font-size: 2.5em;
+        line-height: 1.4em;
     }
+
     .morecenter {
-    text-align: center;
-    font-size: 2.5em;
-    padding: 1em 2em;
-    border-radius: 10em;
-    width: auto;
+        text-align: center;
+        font-size: 2.5em;
+        padding: 1em 2em;
+        border-radius: 10em;
+        width: auto;
     }
 
 }
-
 
 @media (max-width: 670px) {
     .menu {
@@ -2283,7 +2283,6 @@ ul.menu-adaptive li {
         top: 120px;
     }
 
-
 }
 
 @media (max-width: 370px) {
@@ -2293,17 +2292,3 @@ ul.menu-adaptive li {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
