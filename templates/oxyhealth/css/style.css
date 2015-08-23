@@ -417,7 +417,7 @@ ul.menu li {
     width: 60px;
     height: 60px;
     background: url(../images/left_rec.png) no-repeat;
-    left: -100px;
+    left: -35px;
     top: 45px;
     cursor: pointer;
 }
@@ -432,7 +432,7 @@ ul.menu li {
     height: 60px;
     background: url(../images/right_rec.png) no-repeat;
     top: 45px;
-    right: -100px;
+    right: -60px;
     cursor: pointer;
 }
 
@@ -558,9 +558,9 @@ ul.menu li {
 
 ul.slider li .rel_container ul li {
     font-family: "Roboto";
-    font-size: 17px;
+    font-size: 1.5em;
     font-weight: 300;
-    line-height: 20px;
+    line-height: 1.5em;
     margin-bottom: 10px;
     color: #304f92;
     list-style: disc;
@@ -1077,7 +1077,7 @@ ul.menu li a.menuactive, .menuactive:hover {
 
 .img_cont + p {
     font-family: "Roboto";
-    font-size: 14px;
+    font-size: 1.5em;
     color: #304f92;
     text-transform: uppercase;
     font-weight: 400;
@@ -1086,8 +1086,8 @@ ul.menu li a.menuactive, .menuactive:hover {
 .img_cont + p + p {
     font-family: "Roboto";
     color: #2b2f3d;
-    font-size: 11px;
-    line-height: 15px;
+    font-size: 1.3em;
+    line-height: 1.3em;
     padding: 5px 10px;
 }
 
@@ -1106,7 +1106,7 @@ ul.menu li a.menuactive, .menuactive:hover {
     float: left;
     width: 330px;
     text-align: center;
-    height: 240px;
+    height: 320px;
 }
 
 .adv {
@@ -2123,12 +2123,12 @@ ul.menu-adaptive li {
     z-index: 100;
 }
 
-
 .menu-adaptive__toggle {
     color: #304f92;
     font-size: 2em;
     cursor: pointer;
 }
+
 
 @media (max-width: 1000px) {
     .menu {
@@ -2136,11 +2136,11 @@ ul.menu-adaptive li {
     }
 
     ul.menu-adaptive li {
-      padding: 4em;
+        padding: 4em;
     }
 
     ul.menu-adaptive li a {
-      font-size: 4em;
+        font-size: 4em;
     }
 
     .menu-adaptive__wrapper {
@@ -2152,7 +2152,8 @@ ul.menu-adaptive li {
     }
 
     .menu-adaptive__toggle {
-      font-size: 4em;
+        font-size: 4em;
+        display: inline-block;
     }
 
     .menu-adaptive__show {
@@ -2160,7 +2161,7 @@ ul.menu-adaptive li {
     }
 
     .menu-adaptive__toggle span {
-      display: none;
+        display: none;
     }
 
     .wrapper {
@@ -2174,83 +2175,215 @@ ul.menu-adaptive li {
     }
 
     .header {
-      height: 12em;
+        height: 12em;
     }
 
     #logo {
-      top: 4em;
+        top: 4em;
     }
 
     .feedback {
-      right: 4em;
-      font-size: 2em;
-      padding: 30px;
-      top: 1.5em;
+        right: 4em;
+        font-size: 2em;
+        padding: 30px;
+        top: 1.5em;
     }
 
-.consult {
-  display: none;
-}
+    .consult {
+        display: none;
+    }
 
-  /* slide 2 */
-
+    /* slide 2 */
     #ellipse {
-    width: 90%;
-    margin: 0 auto;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .for_what {
         font-size: 4em;
-        top: -4em;
+        top: -3em;
         line-height: 1em;
         left: 0;
         right: 0;
     }
 
     #ellipse ul {
-    top: 0;
-    left: 0;
-    right: 0;
+        top: 0;
+        left: 0;
+        right: 0;
     }
 
     #ellipse ul li {
-      display: inline-block;
-      font-size: 2.5em;
-      padding: 0.8em 1em;
-      border-radius: 10em;
+        display: inline-block;
+        font-size: 2.5em;
+        padding: 0.8em 1em;
+        border-radius: 10em;
     }
 
     #ellipse ul li.ali, #ellipse ul li:hover {
-      padding: 0.8em 1em;
+        padding: 0.8em 1em;
     }
 
     #ellipse_insider {
-    top: 10em;
-    padding: 0;
-    width: 100%;
-    margin: 0 auto;
-    background: none;
+        top: 10em;
+        padding: 0;
+        width: 100%;
+        margin: 0 auto;
+        background: none;
     }
+
     .veltitle {
-      font-size: 4em;
-      line-height: 1em;
-      margin-top: 2em;
+        font-size: 4em;
+        line-height: 1em;
+        margin-top: 2em;
     }
+
     #ellipse p {
-    text-align: center;
-    font-size: 2.5em;
-    line-height: 1.4em;
+        text-align: center;
+        font-size: 2.5em;
+        line-height: 1.4em;
     }
+
     .morecenter {
-    text-align: center;
-    font-size: 2.5em;
-    padding: 1em 2em;
-    border-radius: 10em;
-    width: auto;
+        text-align: center;
+        font-size: 2.5em;
+        padding: 1em 2em;
+        border-radius: 10em;
+        width: auto;
+    }
+
+    .slide3wrapper .margin {
+        padding-top: 0 !important;
+    }
+
+    ul.slider li .rel_container ul li {
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+
+    .rel_container ul {
+        margin-top: 40px;
+    }
+
+    .video2 {
+        right: 60px;
+    }
+
+    .img_cont + p {
+        font-size: 1.5em;
+    }
+
+    .img_cont + p + p {
+        font-size: 1.2em;
+    }
+
+    .adv li {
+        height: 300px;
+    }
+
+    .left_menu {
+        margin-top: -110px;
+        top: -200px;
+        float: none;
+        position: relative;
+    }
+
+    .left_menu + img {
+        margin-top: -100px;
+        float: none;
+    }
+
+    .info p {
+        font-size: 1.5em;
+        line-height: 1.3em;
+    }
+
+    .rel_container2 {
+        padding-top: 0;
+    }
+
+    .titleB2 {
+        font-size: 2.5em;
+    }
+
+    .footer_social {
+        right: 400px;
+    }
+
+    #forma {
+        top: -80px;
+        position: relative;
+        width: 500px !important;
+        margin: 0 auto;
+    }
+
+    .application {
+        float: none;
+        margin: -230px auto 0;
+    }
+
+    .application p {
+        font-size: 1.5em;
+    }
+
+    #appl3 {
+        /*float: right;*/
+    }
+
+    .appl3__adaptive {
+        margin-top: 0;
+    }
+
+    .wrapper875 b {
+        font-size: 20px;
+    }
+
+    .wrapper875 i {
+        font-size: 17px;
+    }
+
+    .wrapper875 p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .free_dost {
+        float: none;
+        margin-top: 60px;
+    }
+
+    .left_cont.application {
+        float: none;
+    }
+
+    .right_cont p {
+        font-size: 1.5em;
+    }
+
+    .right_cont a {
+        font-size: 2em;
+    }
+
+    .right_cont b {
+        font-size: 1.5em;
+    }
+
+    .p_content p,
+    .p_content ol li {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .main_slide4 {
+        padding-top: 0;
+    }
+
+    .textpart p {
+        font-size: 20px;
+        line-height: 24px;
     }
 
 }
-
 
 @media (max-width: 670px) {
     .menu {
@@ -2283,7 +2416,6 @@ ul.menu-adaptive li {
         top: 120px;
     }
 
-
 }
 
 @media (max-width: 370px) {
@@ -2293,17 +2425,3 @@ ul.menu-adaptive li {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
