@@ -2281,9 +2281,9 @@ ul.menu-adaptive li {
     }
 
     .img_cont + p + p {
-    font-size: 2em;
+    font-size: 1.8em;
     line-height: 1.2em;
-    padding: 1em;
+    padding: 1em 0.2em;
     }
 
     .slide4_title.tohide {
@@ -2292,7 +2292,7 @@ ul.menu-adaptive li {
     }
 
     .adv {
-          margin-top: -20em;
+          margin-top: 6em;
     }
 
     .adv li {
@@ -2335,7 +2335,7 @@ ul.menu-adaptive li {
 
     .titleB3 {
         font-size: 4em;
-            top: -6em;
+            top: 1em;
     }
 
     ul.slider li {
