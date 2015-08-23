@@ -253,7 +253,7 @@ ul.menu li {
 
 .bx-controls {
     position: absolute;
-    top: 0;
+    top: 25% !important;
     left: 2%;
     z-index: 8000;
 }
@@ -574,7 +574,7 @@ ul.slider li .rel_container ul li {
 .pokaz {
     position: absolute;
     left: 0px;
-    bottom: 25px;
+    bottom: 150px;
     background: url(../images/pokaz.png) no-repeat top left;
     width: 279px;
     height: 60px;
@@ -587,7 +587,7 @@ ul.slider li .rel_container ul li {
 .consult2 {
     position: absolute;
     right: 0px;
-    bottom: 25px;
+    bottom: 150px;
     background: url(../images/consult2.png) no-repeat top left;
     width: 279px;
     height: 60px;
@@ -1098,7 +1098,7 @@ ul.menu li a.menuactive, .menuactive:hover {
     font-size: 14px;
     text-align: center;
     width: 100%;
-    margin-top: -135px;
+    margin-top: -300px;
 }
 
 .adv li {
@@ -1130,7 +1130,8 @@ ul.menu li a.menuactive, .menuactive:hover {
 }
 
 .wrapper875 p {
-    font-size: 14px;
+    font-size: 1.5em;
+    line-height: 1.3em;
 }
 
 p {
@@ -2253,7 +2254,7 @@ ul.menu-adaptive li {
     }
 
     .slide3wrapper .margin {
-        padding-top: 0 !important;
+        padding-top: 100px !important;
     }
 
     ul.slider li .rel_container ul li {
@@ -2285,6 +2286,11 @@ ul.menu-adaptive li {
     padding: 1em;
     }
 
+    .slide4_title.tohide {
+        /*margin-top: -150px;*/
+        font-size: 2.7em;
+    }
+
     .adv {
           margin-top: -20em;
     }
@@ -2294,11 +2300,19 @@ ul.menu-adaptive li {
     height: 35em;
     }
 
+    .titleB3 {
+        padding-top: 0;
+        margin-top: -50px;
+    }
+
     .left_menu {
         margin-top: -110px;
         top: -200px;
         float: none;
         position: relative;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        width: 850px;
     }
 
     .left_menu + img {
@@ -2311,8 +2325,8 @@ ul.menu-adaptive li {
         line-height: 1.3em;
     }
 
-    .rel_container2 {
-        padding-top: 0;
+    .rel_container2 .adv {
+        margin-left: 75px;
     }
 
     .titleB2 {
@@ -2341,15 +2355,15 @@ ul.menu-adaptive li {
 
     .application {
         float: none;
-        margin: -230px auto 0;
+        margin: -160px auto 0;
+        width: 700px;
     }
 
     .application p {
-        font-size: 1.5em;
-    }
-
-    #appl3 {
-        /*float: right;*/
+        font-size: 3em;
+        line-height: 1.2em;
+        max-width: 500px;
+        padding-bottom: 1em;
     }
 
     .appl3__adaptive {
@@ -2357,16 +2371,29 @@ ul.menu-adaptive li {
     }
 
     .wrapper875 b {
-        font-size: 20px;
+        font-size: 2.5em;
     }
 
     .wrapper875 i {
-        font-size: 17px;
+        font-size: 1.7em;
+        line-height: 1.2em;
     }
 
     .wrapper875 p {
-        font-size: 18px;
-        line-height: 26px;
+        font-size: 2.5em;
+        line-height: 1.1em;
+    }
+
+    .slide4_title2 {
+        font-size: 4em;
+    }
+
+    .info_menu {
+        margin-top: -70px;
+    }
+
+    .slide6__adaptive {
+        padding-top: 250px !important;
     }
 
     .free_dost {
@@ -2401,8 +2428,78 @@ ul.menu-adaptive li {
     }
 
     .textpart p {
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 2.2em;
+        line-height: 1.2em;
+    }
+
+    .slide.bj_none .margin {
+        padding-top: 100px !important;
+    }
+
+    #am1,
+    #am2,
+    #am3 {
+        margin-left: 0;
+    }
+
+    .rel_container2__adaptive {
+        padding-top: 200px !important;
+    }
+
+    .slide4_title3 {
+        font-size: 4em;
+        margin-bottom: 80px;
+        margin-top: 100px;
+    }
+
+    .slide4-margin__adaptive {
+        padding-top: 250px !important;
+    }
+
+    .slide000-margin__adaptive {
+        padding-top: 200px !important;
+    }
+
+    .free_dost p + p {
+        font-size: 2.5em;
+        line-height: 1.2em;
+    }
+
+    .free_dost p {
+        font-size: 3.3em;
+    }
+
+    #appl2 {
+        margin-top: 0;
+    }
+
+    .fancybox-outer,
+    .fancybox-inner,
+    #appl2 {
+        width: 650px;
+        height: 555px;
+    }
+
+    .application span {
+        font-size: 3em;
+        line-height: 1.2em;
+    }
+
+    .slide7__adaptive {
+        padding-top: 150px !important;
+    }
+
+    .application .input {
+        width: 400px;
+    }
+
+    .application .input span {
+        font-size: 1.8em;
+    }
+
+    .application .button {
+        width: 250px;
+        font-size: 2em;
     }
 
 }
