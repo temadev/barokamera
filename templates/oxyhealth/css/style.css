@@ -2257,28 +2257,41 @@ ul.menu-adaptive li {
     }
 
     ul.slider li .rel_container ul li {
-        font-size: 2em;
+        font-size: 2.5em;
         line-height: 1.5em;
     }
 
     .rel_container ul {
-        margin-top: 40px;
+    margin: 5em auto;
+    float: none;
+    max-width: 90%;
     }
 
     .video2 {
-        right: 60px;
+    top: auto;
+    right: 0;
+    left: 40%;
+    text-align: center;
     }
 
     .img_cont + p {
-        font-size: 1.5em;
+        font-size: 2.5em;
+            line-height: 1;
     }
 
     .img_cont + p + p {
-        font-size: 1.2em;
+    font-size: 2em;
+    line-height: 1.2em;
+    padding: 1em;
+    }
+
+    .adv {
+          margin-top: -20em;
     }
 
     .adv li {
-        height: 300px;
+          width: 50%;
+    height: 35em;
     }
 
     .left_menu {
@@ -2303,7 +2316,16 @@ ul.menu-adaptive li {
     }
 
     .titleB2 {
-        font-size: 2.5em;
+        font-size: 4em;
+    }
+
+    .titleB3 {
+        font-size: 4em;
+            top: -6em;
+    }
+
+    ul.slider li {
+  
     }
 
     .footer_social {
